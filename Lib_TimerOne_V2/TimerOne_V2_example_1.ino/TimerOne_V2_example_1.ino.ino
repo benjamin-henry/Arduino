@@ -6,7 +6,7 @@ int builtin_led = LED_BUILTIN;
 int led1 = 6;
 int led2 = 10;
 
-void task_() {
+void task_0() {
   digitalWrite(builtin_led,!digitalRead(builtin_led)); // quand cette routine est appellée, la led change d'état
 }
 
