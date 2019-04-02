@@ -1,0 +1,6 @@
+
+
+
+
+1 - copier/coller le dossier "TimerOne_V2" dans le dossier "librairies" du dossier Arduino. 
+(Généralement sous C:\Users\XXX\Documents\Arduino\libraries)
