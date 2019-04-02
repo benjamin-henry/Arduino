@@ -30,16 +30,12 @@ void Object::speak()
 }
 ////////////////////////////////////END
 
-
-
-TimerOne_V2 Timer1; // on instancie le Timer
-
 int builtin_led = LED_BUILTIN;
-
 void task_0() {
   digitalWrite(builtin_led,!digitalRead(builtin_led)); // quand cette routine est appellée, la led change d'état
 }
 
+TimerOne_V2 Timer1; // on instancie le Timer
 Object *obj; // <-- On crée un pointeur de type "Objet"
 
 void setup()
