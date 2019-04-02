@@ -36,7 +36,7 @@ void task_0() {
 }
 
 TimerOne_V2 Timer1; // on instancie le Timer
-Object *obj; // <-- On crée un pointeur de type "Objet"
+Object *obj; // <-- On crée un pointeur de type "Object"
 
 void setup()
 {
