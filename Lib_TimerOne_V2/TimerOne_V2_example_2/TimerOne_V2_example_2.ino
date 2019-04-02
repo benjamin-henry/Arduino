@@ -40,7 +40,7 @@ void task_0() {
   digitalWrite(builtin_led,!digitalRead(builtin_led)); // quand cette routine est appellée, la led change d'état
 }
 
-Object *obj; // IMPORTANT : create a pointer to Object type
+Object *obj; // <-- On crée un pointeur de type "Objet"
 
 void setup()
 {
