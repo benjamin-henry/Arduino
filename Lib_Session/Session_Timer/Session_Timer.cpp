@@ -142,17 +142,12 @@ void Session_Timer::handleInterrupt()
 
 void Session_Timer::add(GeneralFunction f, int time_style, double time)
 {		
-	//_Functions = new GeneralFunction[_tasks_in+1];
-	//_FunctionsPeriods = new double[_tasks_in+1];
-	//_FunctionsCounters = new double[_tasks_in+1];			
-
 	GeneralFunction *Functions = new GeneralFunction[++_tasks_in];
 	double *FunctionsPeriods  = new double[_tasks_in];
 	double *FunctionsCounters = new double[_tasks_in];
 
 	for(int i = 0; i < _tasks_in; i++)
 	{
-
 		Functions[i] = _Functions[i];
 		FunctionsPeriods[i] = _FunctionsPeriods[i];
 		FunctionsCounters[i] = _FunctionsCounters[i];
